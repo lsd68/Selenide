@@ -18,7 +18,7 @@ public class CardDeliveryTest {
     }
 
     @Test
-    public void SuccessCompleted() {
+    public void successCompleted() {
         open("http://localhost:9999");
         $("[data-test-id='city'] input").setValue("Тамбов");
         String currentDate = generateDate(4, "dd.MM.yyyy");
